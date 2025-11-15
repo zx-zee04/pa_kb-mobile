@@ -114,39 +114,39 @@ var uri = Uri.parse("https://xxxxx.ngrok-free.dev/predict");
 📱 Cara Menggunakan Aplikasi (Flutter App)
 1) Instal dependensi Flutter
 
-Pada folder app Flutter:
+    Pada folder app Flutter:
 
-flutter pub get
+    flutter pub get
 
 2) Jalankan di perangkat HP
 
-Pastikan HP terkoneksi:
+    Pastikan HP terkoneksi:
 
-flutter run -d <device_id>
+    flutter run -d <device_id>
 
 
-Contoh: flutter run -d I2213
+    Contoh: flutter run -d I2213
 
 3) Cara Menggunakan MangoScan
 
-Buka aplikasi MangoScan
+    Buka aplikasi MangoScan
 
-Pilih:
+    Pilih:
 
-Scan foto langsung dari kamera, atau
+    Scan foto langsung dari kamera, atau
 
-Ambil gambar dari galeri
+    Ambil gambar dari galeri
 
-Tekan tombol kamera
+    Tekan tombol kamera
 
-Aplikasi akan mengirim gambar ke API
+    Aplikasi akan mengirim gambar ke API
 
-Hasil prediksi tampil:
+    Hasil prediksi tampil:
 
-Nama kelas kematangan
+    Nama kelas kematangan
 
-Persentase confidence
+    Persentase confidence
 
-Deskripsi kondisi mangga
+    Deskripsi kondisi mangga
 
-Lihat hasil lengkap pada halaman “Hasil”
+    Lihat hasil lengkap pada halaman “Hasil”
