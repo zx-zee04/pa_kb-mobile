@@ -277,8 +277,6 @@ class hasil_page extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    // Ambil label tanpa persen, contoh:
-    // "Ripe (98.5%)" → "Ripe"
     final labelBersih =
         hasil == null ? null : hasil!.split(" ").first.trim();
 
@@ -299,7 +297,6 @@ class hasil_page extends StatelessWidget {
           ),
         const SizedBox(height: 12),
 
-        // === GAMBAR ===
         Container(
           height: 280,
           decoration: BoxDecoration(
@@ -326,7 +323,6 @@ class hasil_page extends StatelessWidget {
 
         const SizedBox(height: 16),
 
-        // === JUDUL DESKRIPSI ===
         Text(
           'Deskripsi',
           style: Theme.of(context)
@@ -336,7 +332,6 @@ class hasil_page extends StatelessWidget {
         ),
         const SizedBox(height: 8),
 
-        // === ISI DESKRIPSI ===
         Text(
           hasil == null
               ? 'Belum ada hasil prediksi.'
