@@ -30,9 +30,7 @@ Fitur Aplikasi
 ~Interface modern, ringan, dan mudah digunakan
 
 
-Frontend (Mobile App)
-
-Flutter
+Frontend (Mobile App) Flutter
 
 ~Dart
 
@@ -70,8 +68,8 @@ python app.py
 
 Jika berhasil, output akan tampil seperti:
 
-* Running on http://127.0.0.1:5000
-* Running on http://0.0.0.0:5000
+* Running on http://xxx.x.x.x:5000
+* Running on http://x.x.x.x:5000
 
 
 API sekarang siap menerima gambar melalui:
@@ -103,12 +101,12 @@ ngrok http 5000
 
 Ngrok akan mengeluarkan URL seperti:
 
-Forwarding https://xxxxx.ngrok-free.app → http://localhost:5000
+Forwarding https://xxxxx.ngrok-free.dev → http://localhost:5000
 
 
 Salin URL tersebut dan masukkan ke Flutter:
 
-var uri = Uri.parse("https://xxxxx.ngrok-free.app/predict");
+var uri = Uri.parse("https://xxxxx.ngrok-free.dev/predict");
 
 📱 Cara Menggunakan Aplikasi (Flutter App)
 1) Instal dependensi Flutter
@@ -124,9 +122,7 @@ Pastikan HP terkoneksi:
 flutter run -d <device_id>
 
 
-Contoh:
-
-flutter run -d I2213
+Contoh: flutter run -d I2213
 
 3) Cara Menggunakan MangoScan
 
