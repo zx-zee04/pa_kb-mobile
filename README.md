@@ -2,33 +2,57 @@ MangoScan – Mango Ripeness Detection App
 
 Aplikasi mobile berbasis Flutter untuk mendeteksi tingkat kematangan mangga menggunakan model CNN (Convolutional Neural Network).
 MangoScan dapat mendeteksi 5 kelas kematangan:
-  ~Early_ripe (awal matang)
-  ~Partially_ripe (setengah matang)
-  ~Ripe (matang)
-  ~Rotten (busuk)
-  ~Unripe (mentah)
+
+~Early_ripe (awal matang)
+
+~Partially_ripe (setengah matang)
+
+~Ripe (matang)
+
+~Rotten (busuk)
+
+~Unripe (mentah)
+
 Aplikasi ini terhubung dengan backend API berbasis Flask yang memproses gambar dengan model deep learning.
 
 Fitur Aplikasi
-  ~Menggunakan kamera HP untuk mengambil gambar mangga
-  ~Mengunggah gambar ke API untuk diprediksi
-  ~Menampilkan hasil prediksi + persentase kepercayaan
-  ~Menampilkan deskripsi khusus sesuai kelas kematangan
-  ~Bisa upload dari galeri
-  ~Interface modern, ringan, dan mudah digunakan
+
+~Menggunakan kamera HP untuk mengambil gambar mangga
+
+~Mengunggah gambar ke API untuk diprediksi
+
+~Menampilkan hasil prediksi + persentase kepercayaan
+
+~Menampilkan deskripsi khusus sesuai kelas kematangan
+
+~Bisa upload dari galeri
+
+~Interface modern, ringan, dan mudah digunakan
+
 
 Frontend (Mobile App)
+
 Flutter
-  ~Dart
-  ~Camera Plugin
-  ~Image Picker
-  ~HTTP Multipart Upload
+
+~Dart
+
+~Camera Plugin
+
+~Image Picker
+
+~HTTP Multipart Upload
+
 Backend (API Server)
-  ~Python
-  ~Flask
-  ~TensorFlow / Keras
-  ~NumPy
-  ~Flask-CORS
+
+~Python
+
+~Flask
+
+~TensorFlow / Keras
+
+~NumPy
+
+~Flask-CORS
 
   🚀 Cara Menjalankan API (Flask Backend)
 
