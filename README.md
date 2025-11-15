@@ -1,3 +1,6 @@
+Link Build APK: https://drive.google.com/drive/folders/1QR2xfGjPItjV2gONoXrmpnNhfkaeCJt9?usp=sharing
+
+
 MangoScan – Mango Ripeness Detection App
 
 Aplikasi mobile berbasis Flutter untuk mendeteksi tingkat kematangan mangga menggunakan model CNN (Convolutional Neural Network).
